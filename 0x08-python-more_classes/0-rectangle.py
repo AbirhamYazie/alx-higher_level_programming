@@ -5,7 +5,7 @@ Defining a class Rectangle.
 """
 
 class Rectangle:
-    """"Represents an empity class Rectangle."""
+    """"an empity class """
     pass
 
 
