@@ -1,25 +1,19 @@
 #!/usr/bin/python3
 """
-Contains a definition for class rectangle.
+Definition for class rectangle.
 """
+
+
 class Rectangle:
     """
-    Definition of class rectangle.
-    Attributes:
-          width(int): rectangle width.
-          height(int): rectangle height.
+     Defines the implementation of a rectangle
     """
+
+
     def __init__(self, width=0, height=0):
-        """
-          Initializes a new Class Rectangle instance.
-
-        Args:
-            width(int): rectangle width.
-            height(int): rectangle height.
-
-        """
         self.height = height
         self.width = width
+
     @property
     def height(self):
         """
@@ -27,6 +21,7 @@ class Rectangle:
           Returns: height of the triangle.
         """
         return self.__height
+
     @height.setter
     def height(self, value):
         """
@@ -42,6 +37,7 @@ class Rectangle:
         elif value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
+
     @property
     def width(self)
     """
@@ -49,6 +45,7 @@ class Rectangle:
       Returns: width of the triangle.
     """
         return self.__width
+
     @width.setter
     def width(self, value):
         """
