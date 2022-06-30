@@ -6,6 +6,7 @@ class Rectangle:
     """Defines the implementation of a rectangle"""
 
     def __init__(self, width=0, height=0):
+        """Initilizes instances"""
         self.__width = width
         self.__height = height
 
